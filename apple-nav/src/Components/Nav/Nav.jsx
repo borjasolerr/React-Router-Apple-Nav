@@ -6,6 +6,9 @@ const StyledNav = styled(NavLink)`
   color: white;
   text-decoration: none;
   display: flex;
+  &.active {
+    color: grey;
+  }
 `;
 
 const Nav = props => {

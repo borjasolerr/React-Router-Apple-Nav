@@ -17,6 +17,8 @@ const StyledSubNavContainer = styled.div`
   background-color: rgba(242, 242, 242, 0.7);
   text-align: center;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 `;
 
 const SubItem = styled.div`
