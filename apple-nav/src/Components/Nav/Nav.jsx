@@ -4,6 +4,8 @@ import { NavLink, Route } from 'react-router-dom';
 
 const StyledNav = styled(NavLink)`
   color: white;
+  text-decoration: none;
+  display: flex;
 `;
 
 const Nav = props => {
